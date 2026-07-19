@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/rotpet-admin/app/tienda/layout.tsx"],"sourcesContent":["import type { Metadata } from \"next\"\n\nexport const metadata: Metadata = {\n  title: \"ROT PET SHOP - Tienda\",\n  description: \"Tienda responsive de Rot Pet Shop inspirada en el diseño proporcionado.\",\n}\n\nexport default function TiendaLayout({ children }: Readonly<{ children: React.ReactNode }>) {\n  return <div className=\"min-h-screen bg-zinc-50 text-zinc-950\">{children}</div>\n}"],"names":[],"mappings":";;;;;;;;AAEO,MAAM,WAAqB;IAChC,OAAO;IACP,aAAa;AACf;AAEe,SAAS,aAAa,EAAE,QAAQ,EAA2C;IACxF,qBAAO,6WAAC;QAAI,WAAU;kBAAyC;;;;;;AACjE","debugId":null}}]
+}

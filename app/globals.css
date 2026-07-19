@@ -10,10 +10,10 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: #1f2937;
-  --primary-accent: #ff6b35;
-  --secondary: #f5f5f5;
-  --muted: #9ca3af;
+  --primary: #000000;
+  --primary-accent: #111111;
+  --secondary: #f4f4f5;
+  --muted: #71717a;
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.577 0.245 27.325);
   --border: #e5e7eb;
@@ -43,8 +43,8 @@
   --popover: oklch(0.145 0 0);
   --popover-foreground: oklch(0.985 0 0);
   --primary: #f5f5f5;
-  --primary-accent: #ff8c5a;
-  --secondary: #1f2937;
+  --primary-accent: #ffffff;
+  --secondary: #18181b;
   --muted: #6b7280;
   --destructive: oklch(0.396 0.141 25.723);
   --destructive-foreground: oklch(0.637 0.237 25.331);
@@ -119,11 +119,11 @@
 
 /* Main layout styles */
 .layout-wrap {
-  @apply flex h-screen bg-gray-50;
+  @apply flex min-h-screen bg-zinc-50;
 }
 
 .section-menu-left {
-  @apply w-72 bg-white border-r border-gray-200 overflow-y-auto;
+  @apply w-72 overflow-y-auto border-r border-zinc-800 bg-black;
 }
 
 .section-content-right {
@@ -131,7 +131,7 @@
 }
 
 .header-dashboard {
-  @apply bg-white border-b border-gray-200 px-8 py-4;
+  @apply border-b border-zinc-200 bg-white px-8 py-4;
 }
 
 .main-content {
@@ -153,7 +153,7 @@
 
 /* Buttons and interactions */
 .tf-button {
-  @apply px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors font-medium;
+  @apply rounded-full bg-black px-4 py-2 font-medium text-white transition-colors hover:bg-zinc-800;
 }
 
 /* Cards */
@@ -185,9 +185,9 @@
 }
 
 .box-icon-trending.up {
-  @apply text-green-600;
+  @apply text-black;
 }
 
 .box-icon-trending.down {
-  @apply text-red-600;
+  @apply text-zinc-500;
 }

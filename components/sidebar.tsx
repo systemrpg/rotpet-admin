@@ -17,6 +17,7 @@ import {
   MapPin,
   Settings,
   Edit,
+  MessageSquare,
 } from "lucide-react"
 
 const menuItems = [
@@ -26,7 +27,7 @@ const menuItems = [
       {
         label: "Panel de Control",
         icon: Grid,
-        href: "/",
+        href: "/admin",
       },
     ],
   },
@@ -42,6 +43,16 @@ const menuItems = [
         label: "Categorías",
         icon: Layers,
         href: "/categories",
+      },
+      {
+        label: "Marcas",
+        icon: ShoppingCart,
+        href: "/brands",
+      },
+      {
+        label: "Cupones",
+        icon: FileText,
+        href: "/coupons",
       },
       {
         label: "Órdenes",
@@ -70,12 +81,14 @@ const menuItems = [
     items: [
       { label: "Galería", icon: ImageIcon, href: "/gallery" },
       { label: "Reportes", icon: PieChart, href: "/reports" },
+      { label: "Soporte", icon: MessageSquare, href: "/support" },
     ],
   },
   {
     heading: "Configuración",
     items: [
       { label: "Ubicación", icon: MapPin, href: "/countries" },
+      { label: "Estados", icon: MapPin, href: "/states" },
       { label: "Configuración", icon: Settings, href: "/settings" },
       { label: "Páginas", icon: Edit, href: "/pages" },
     ],
@@ -87,15 +100,15 @@ export default function Sidebar() {
 
   return (
     <div
-      className={`${isOpen ? "w-72" : "w-20"} bg-white border-r border-gray-200 transition-all duration-300 flex flex-col`}
+      className={`${isOpen ? "w-72" : "w-20"} flex flex-col border-r border-zinc-800 bg-black text-white transition-all duration-300`}
     >
-      <div className="p-4 border-b border-gray-200 flex items-center justify-between">
+      <div className="flex items-center justify-between border-b border-zinc-800 p-4">
         {isOpen && (
-          <Link href="/" className="flex items-center gap-2">
-            <Image src="/logo-text.png" alt="Rot Pet Shop" width={240} height={70} className="h-16 w-auto" />
+          <Link href="/admin" className="flex items-center gap-2">
+            <Image src="/logo-text.png" alt="Rot Pet Shop" width={240} height={70} className="h-16 w-auto brightness-0 invert" />
           </Link>
         )}
-        <button onClick={() => setIsOpen(!isOpen)} className="text-gray-600 hover:text-gray-900">
+        <button onClick={() => setIsOpen(!isOpen)} className="text-zinc-300 transition hover:text-white">
           {isOpen ? <X size={20} /> : <Menu size={20} />}
         </button>
       </div>
@@ -104,7 +117,7 @@ export default function Sidebar() {
         {menuItems.map((section) => (
           <div key={section.heading} className="mb-4">
             {isOpen && (
-              <div className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wider">
+              <div className="px-4 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-400">
                 {section.heading}
               </div>
             )}
@@ -113,7 +126,7 @@ export default function Sidebar() {
                 <Link
                   key={item.label}
                   href={item.href}
-                  className="w-full flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:text-orange-600 hover:bg-orange-50 transition-colors"
+                  className="flex w-full items-center gap-3 px-4 py-2 text-sm text-zinc-300 transition-colors hover:bg-white/10 hover:text-white"
                 >
                   <item.icon size={20} className="flex-shrink-0" />
                   {isOpen && <span className="flex-1">{item.label}</span>}
