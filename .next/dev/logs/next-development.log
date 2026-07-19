@@ -1,0 +1,2715 @@
+[00:00:06.537] Server  WARN     ⚠ Minimum recommended TypeScript version is v5.1.0, older versions can potentially be incompatible with Next.js. Detected: 5.0.2
+[00:00:06.733] Server  LOG      ✓ Ready in 5.5s
+[00:00:10.186] Server  LOG      ○ Compiling / ...
+[00:00:18.809] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:18.809] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_c515d51c-321e-4f38-817e-d310f6e19971__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[00:00:18.809] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:18.809] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:18.809] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/","r":"https://didactic-chainsaw-pj6rjx9p75g52665x.github.dev/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784410998595} /_vercel/insights/view
+[00:00:19.143] Browser WARN    Image with src "https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/logo-text.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:27.801] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:27.801] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/pages" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_19c0eb8e-8c52-4dde-9cfa-affbfe6d23e0__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[00:00:27.801] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:27.801] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/pages","route":"/pages"}
+[00:00:27.801] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages color: rgb(120, 120, 120) color: inherit {"dp":"/pages","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784411007464} /_vercel/insights/view
+[00:20:45.497] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:45.497] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <Next.Metadata>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                    ...
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_70329192-88e3-4d29-b4c3-ce4a904ea5b5__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                            ...
+                              <SegmentViewNode type="page" pagePath="page.tsx">
+                                <SegmentTrieNode>
+                                <Home>
+                                  <div
+                                    className="layout-wrap"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <Sidebar>
+                                      <div
+                                        className="w-72 bg-white border-r border-gray-200 transition-all duration-300 ..."
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="p-4 border-b border-gray-200 flex items-center justify-between"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <nav className="flex-1 ove...">
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase track..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Inicio
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase track..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Tienda
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase track..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Usuarios
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase track..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Contenido
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase track..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Configuración
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                    <div
+                                      className="section-content-right"
+-                                     bis_skin_checked="1"
+                                    >
+                                      <Header>
+                                        <header className="bg-white b...">
+                                          <div
+                                            className="flex items-center justify-between gap-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <LinkComponent>
+                                            <div
+                                              className="flex-1 max-w-md"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="relative"
+-                                               bis_skin_checked="1"
+                                              >
+                                            <div
+                                              className="flex items-center gap-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <select>
+                                              <button>
+                                              <div
+                                                className="relative"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="relative"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center gap-3 pl-4 border-l border-gray-200"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <img>
+                                                <div
+                                                  className="text-right"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="text-sm font-semibold text-gray-900"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Cesar Diaz
+                                                  <div
+                                                    className="text-xs text-gray-600"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Admin
+                                      <main className="main-content">
+                                        <div
+                                          className="mb-8"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <StatsCard>
+                                            <div
+                                              className="bg-white rounded-lg border border-gray-200 p-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center justify-between mb-4"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="bg-green-100 p-3 rounded-lg"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="flex items-center gap-1 text-green-600"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="h-1 bg-gradient-to-r from-orange-200 to-orange-300 rounded-..."
+-                                               bis_skin_checked="1"
+                                              >
+                                          <StatsCard>
+                                            <div
+                                              className="bg-white rounded-lg border border-gray-200 p-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center justify-between mb-4"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="bg-orange-100 p-3 rounded-lg"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="flex items-center gap-1 text-red-600"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="h-1 bg-gradient-to-r from-orange-200 to-orange-300 rounded-..."
+-                                               bis_skin_checked="1"
+                                              >
+                                          <StatsCard>
+                                            <div
+                                              className="bg-white rounded-lg border border-gray-200 p-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center justify-between mb-4"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="bg-gray-100 p-3 rounded-lg"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="flex items-center gap-1 text-gray-600"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="h-1 bg-gradient-to-r from-orange-200 to-orange-300 rounded-..."
+-                                               bis_skin_checked="1"
+                                              >
+                                          <StatsCard>
+                                            <div
+                                              className="bg-white rounded-lg border border-gray-200 p-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center justify-between mb-4"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="bg-blue-100 p-3 rounded-lg"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="flex items-center gap-1 text-green-600"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="h-1 bg-gradient-to-r from-orange-200 to-orange-300 rounded-..."
+-                                               bis_skin_checked="1"
+                                              >
+                                        <div
+                                          className="grid grid-cols-1 lg:grid-cols-3 gap-6"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="lg:col-span-2 bg-white rounded-lg border border-gray-200 p-6"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="flex items-center justify-between mb-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="space-y-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center justify-between p-4 bg-gray-50 rounded-lg..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3 flex-1"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="w-12 h-12 bg-gradient-to-br from-orange-300 to-orange-4..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="text-right"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="flex items-center justify-between p-4 bg-gray-50 rounded-lg..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3 flex-1"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="w-12 h-12 bg-gradient-to-br from-orange-300 to-orange-4..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="text-right"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="flex items-center justify-between p-4 bg-gray-50 rounded-lg..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3 flex-1"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="w-12 h-12 bg-gradient-to-br from-orange-300 to-orange-4..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="text-right"
+-                                                 bis_skin_checked="1"
+                                                >
+                                          <div
+                                            className="bg-white rounded-lg border border-gray-200 p-6"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="flex items-center justify-between mb-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="space-y-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center justify-between p-3 hover:bg-gray-50 rounded"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center justify-between p-3 hover:bg-gray-50 rounded"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center justify-between p-3 hover:bg-gray-50 rounded"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center justify-between p-3 hover:bg-gray-50 rounded"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center justify-between p-3 hover:bg-gray-50 rounded"
+-                                               bis_skin_checked="1"
+                                              >
+                                        <Footer>
+                                          <footer className="py-6 borde...">
+                                            <div
+                                              className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+-                                             bis_skin_checked="1"
+                                            >
+                              ...
+                            ...
+                  ...
+
+[00:20:45.497] Browser WARN    Image with src "https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/logo-text.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:20:45.498] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:20:45.498] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:20:45.498] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/","r":"https://didactic-chainsaw-pj6rjx9p75g52665x.github.dev/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412225307} /_vercel/insights/view
+[00:20:55.101] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/settings color: rgb(120, 120, 120) color: inherit {"dp":"/settings","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/settings","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412234841} /_vercel/insights/view
+[00:21:51.955] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:51.955] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <Next.Metadata>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                    ...
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_cfedeabd-f1d4-4186-b258-2d902c770dc4__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                            ...
+                              <SegmentViewNode type="page" pagePath="page.tsx">
+                                <SegmentTrieNode>
+                                <Home>
+                                  <div
+                                    className="layout-wrap"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <Sidebar>
+                                      <div
+                                        className="w-72 bg-white border-r border-gray-200 transition-all duration-300 ..."
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="p-4 border-b border-gray-200 flex items-center justify-between"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <nav className="flex-1 ove...">
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase track..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Inicio
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase track..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Tienda
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase track..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Usuarios
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase track..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Contenido
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase track..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Configuración
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                    <div
+                                      className="section-content-right"
+-                                     bis_skin_checked="1"
+                                    >
+                                      <Header>
+                                        <header className="bg-white b...">
+                                          <div
+                                            className="flex items-center justify-between gap-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <LinkComponent>
+                                            <div
+                                              className="flex-1 max-w-md"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="relative"
+-                                               bis_skin_checked="1"
+                                              >
+                                            <div
+                                              className="flex items-center gap-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <select>
+                                              <button>
+                                              <div
+                                                className="relative"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="relative"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center gap-3 pl-4 border-l border-gray-200"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <img>
+                                                <div
+                                                  className="text-right"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="text-sm font-semibold text-gray-900"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Cesar Diaz
+                                                  <div
+                                                    className="text-xs text-gray-600"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Admin
+                                      <main className="main-content">
+                                        <div
+                                          className="mb-8"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <StatsCard>
+                                            <div
+                                              className="bg-white rounded-lg border border-gray-200 p-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center justify-between mb-4"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="bg-green-100 p-3 rounded-lg"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="flex items-center gap-1 text-green-600"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="h-1 bg-gradient-to-r from-orange-200 to-orange-300 rounded-..."
+-                                               bis_skin_checked="1"
+                                              >
+                                          <StatsCard>
+                                            <div
+                                              className="bg-white rounded-lg border border-gray-200 p-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center justify-between mb-4"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="bg-orange-100 p-3 rounded-lg"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="flex items-center gap-1 text-red-600"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="h-1 bg-gradient-to-r from-orange-200 to-orange-300 rounded-..."
+-                                               bis_skin_checked="1"
+                                              >
+                                          <StatsCard>
+                                            <div
+                                              className="bg-white rounded-lg border border-gray-200 p-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center justify-between mb-4"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="bg-gray-100 p-3 rounded-lg"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="flex items-center gap-1 text-gray-600"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="h-1 bg-gradient-to-r from-orange-200 to-orange-300 rounded-..."
+-                                               bis_skin_checked="1"
+                                              >
+                                          <StatsCard>
+                                            <div
+                                              className="bg-white rounded-lg border border-gray-200 p-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center justify-between mb-4"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="bg-blue-100 p-3 rounded-lg"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="flex items-center gap-1 text-green-600"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="h-1 bg-gradient-to-r from-orange-200 to-orange-300 rounded-..."
+-                                               bis_skin_checked="1"
+                                              >
+                                        <div
+                                          className="grid grid-cols-1 lg:grid-cols-3 gap-6"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="lg:col-span-2 bg-white rounded-lg border border-gray-200 p-6"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="flex items-center justify-between mb-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="space-y-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center justify-between p-4 bg-gray-50 rounded-lg..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3 flex-1"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="w-12 h-12 bg-gradient-to-br from-orange-300 to-orange-4..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="text-right"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="flex items-center justify-between p-4 bg-gray-50 rounded-lg..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3 flex-1"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="w-12 h-12 bg-gradient-to-br from-orange-300 to-orange-4..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="text-right"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="flex items-center justify-between p-4 bg-gray-50 rounded-lg..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-3 flex-1"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="w-12 h-12 bg-gradient-to-br from-orange-300 to-orange-4..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="text-right"
+-                                                 bis_skin_checked="1"
+                                                >
+                                          <div
+                                            className="bg-white rounded-lg border border-gray-200 p-6"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="flex items-center justify-between mb-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="space-y-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center justify-between p-3 hover:bg-gray-50 rounded"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center justify-between p-3 hover:bg-gray-50 rounded"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center justify-between p-3 hover:bg-gray-50 rounded"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center justify-between p-3 hover:bg-gray-50 rounded"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center justify-between p-3 hover:bg-gray-50 rounded"
+-                                               bis_skin_checked="1"
+                                              >
+                                        <Footer>
+                                          <footer className="py-6 borde...">
+                                            <div
+                                              className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+-                                             bis_skin_checked="1"
+                                            >
+                              ...
+                            ...
+                  ...
+
+[00:21:51.955] Browser WARN    Image with src "https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/logo-text.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:21:51.955] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:21:51.955] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:21:51.955] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/","r":"https://didactic-chainsaw-pj6rjx9p75g52665x.github.dev/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412291750} /_vercel/insights/view
+[00:22:00.106] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:00.106] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/pages" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_207d674c-dfde-4055-bd79-b04920c80265__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[00:22:00.106] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:22:00.106] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/pages","route":"/pages"}
+[00:22:00.106] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages color: rgb(120, 120, 120) color: inherit {"dp":"/pages","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412299838} /_vercel/insights/view
+[00:22:05.980] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:05.980] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+-                           __processed_6e67e242-5073-4146-8418-215eff69774b__="true"
+                          >
+                  ...
+
+[00:22:05.980] Browser WARN    Image with src "https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/logo-text.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:05.980] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:22:05.980] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:22:05.980] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/","r":"https://didactic-chainsaw-pj6rjx9p75g52665x.github.dev/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412305786} /_vercel/insights/view
+[00:22:07.960] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:07.960] Browser WARN    Image with src "/logo-text.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:22:07.960] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_e377bccf-ccef-4367-b5d6-3b58b2e1e4d1__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[00:22:07.960] Browser WARN    Image with src "https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/logo-text.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:07.960] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:22:07.960] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:22:07.960] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412307711} /_vercel/insights/view
+[00:22:22.046] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:22.046] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_ed553ad0-2008-45d9-bcf8-c6812440aa04__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[00:22:22.046] Browser WARN    Image with src "https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/logo-text.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:22.046] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:22:22.046] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:22:22.046] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/","r":"https://didactic-chainsaw-pj6rjx9p75g52665x.github.dev/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412321890} /_vercel/insights/view
+[00:24:08.302] Server  LOG      ✓ Compiled in 1848ms
+[00:25:05.390] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:05.390] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <Next.Metadata>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                    ...
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+-                           __processed_d551a941-88c8-417b-b779-5eb2a1a503d4__="true"
+                          >
+                            ...
+                              <SegmentViewNode type="page" pagePath="admin/page...">
+                                <SegmentTrieNode>
+                                <AdminHomePage>
+                                  <div
+                                    className="layout-wrap"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <Sidebar>
+                                      <div
+                                        className="w-72 flex flex-col border-r border-zinc-800 bg-black text-white tra..."
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="flex items-center justify-between border-b border-zinc-800 p-4"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <nav className="flex-1 ove...">
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold uppercase tracking-wider text..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Inicio
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold uppercase tracking-wider text..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Tienda
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold uppercase tracking-wider text..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Usuarios
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold uppercase tracking-wider text..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Contenido
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold uppercase tracking-wider text..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Configuración
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                    <div
+                                      className="section-content-right min-w-0"
+-                                     bis_skin_checked="1"
+                                    >
+                                      <Header>
+                                        <header className="border-b b...">
+                                          <div
+                                            className="flex flex-wrap items-center justify-between gap-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <LinkComponent>
+                                            <div
+                                              className="hidden flex-1 max-w-md md:block"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="relative"
+-                                               bis_skin_checked="1"
+                                              >
+                                            <div
+                                              className="flex items-center gap-3 sm:gap-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <select>
+                                              <button>
+                                              <div
+                                                className="relative"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="relative"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center gap-3 border-l border-zinc-200 pl-4"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <img>
+                                                <div
+                                                  className="text-right"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="text-sm font-semibold text-zinc-950"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Cesar Diaz
+                                                  <div
+                                                    className="text-xs text-zinc-500"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Admin
+                                      <main className="main-conte...">
+                                        <section>
+                                        <section className="grid gap-4...">
+                                          <article className="wg-box fle...">
+                                            <div
+                                              className="space-y-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex h-11 w-11 items-center justify-center rounded-2xl bg-b..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+-                                               bis_skin_checked="1"
+                                              >
+                                            ...
+                                          <article className="wg-box fle...">
+                                            <div
+                                              className="space-y-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex h-11 w-11 items-center justify-center rounded-2xl bg-b..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+-                                               bis_skin_checked="1"
+                                              >
+                                            ...
+                                          <article className="wg-box fle...">
+                                            <div
+                                              className="space-y-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex h-11 w-11 items-center justify-center rounded-2xl bg-b..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+-                                               bis_skin_checked="1"
+                                              >
+                                            ...
+                                          <article className="wg-box fle...">
+                                            <div
+                                              className="space-y-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex h-11 w-11 items-center justify-center rounded-2xl bg-b..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+-                                               bis_skin_checked="1"
+                                              >
+                                            ...
+                                        <section className="grid gap-6...">
+                                          <article className="wg-box spa...">
+                                            <div
+                                              className="flex items-center justify-between gap-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+-                                               bis_skin_checked="1"
+                                              >
+                                              ...
+                                            <div
+                                              className="space-y-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex flex-col gap-3 rounded-2xl border border-zinc-200 p-4 ..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="flex items-center gap-3"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="flex flex-col gap-3 rounded-2xl border border-zinc-200 p-4 ..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="flex items-center gap-3"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="flex flex-col gap-3 rounded-2xl border border-zinc-200 p-4 ..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="flex items-center gap-3"
+-                                                 bis_skin_checked="1"
+                                                >
+                                          <article className="wg-box spa...">
+                                            <div
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="space-y-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center justify-between rounded-2xl border border..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center justify-between rounded-2xl border border..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center justify-between rounded-2xl border border..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center justify-between rounded-2xl border border..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center justify-between rounded-2xl border border..."
+-                                               bis_skin_checked="1"
+                                              >
+                                        <Footer>
+                                          <footer className="py-6 borde...">
+                                            <div
+                                              className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+-                                             bis_skin_checked="1"
+                                            >
+                              ...
+                            ...
+                  ...
+
+[00:25:05.478] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:25:05.478] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
+[00:25:05.478] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412485237} /_vercel/insights/view
+[00:25:20.152] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages color: rgb(120, 120, 120) color: inherit {"dp":"/pages","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412499907} /_vercel/insights/view
+[00:25:27.644] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/settings color: rgb(120, 120, 120) color: inherit {"dp":"/settings","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/settings","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412507393} /_vercel/insights/view
+[00:25:32.596] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/reports color: rgb(120, 120, 120) color: inherit {"dp":"/reports","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/reports","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412512350} /_vercel/insights/view
+[00:25:34.651] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/gallery color: rgb(120, 120, 120) color: inherit {"dp":"/gallery","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/gallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412514411} /_vercel/insights/view
+[00:25:36.316] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/roles color: rgb(120, 120, 120) color: inherit {"dp":"/roles","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/roles","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412516074} /_vercel/insights/view
+[00:25:39.306] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/users color: rgb(120, 120, 120) color: inherit {"dp":"/users","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/users","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412519063} /_vercel/insights/view
+[00:25:42.828] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/orders color: rgb(120, 120, 120) color: inherit {"dp":"/orders","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/orders","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412522587} /_vercel/insights/view
+[00:25:45.257] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/categories color: rgb(120, 120, 120) color: inherit {"dp":"/categories","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/categories","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412525014} /_vercel/insights/view
+[00:25:48.740] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/products","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412528500} /_vercel/insights/view
+[00:25:59.886] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/settings color: rgb(120, 120, 120) color: inherit {"dp":"/settings","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/settings","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412539644} /_vercel/insights/view
+[00:26:20.543] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412560300} /_vercel/insights/view
+[00:26:34.335] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:34.335] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/tienda" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_cf65e537-db0f-4382-966e-ab9e95a65339__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[00:26:34.335] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:26:34.335] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/tienda","route":"/tienda"}
+[00:26:34.335] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/tienda color: rgb(120, 120, 120) color: inherit {"dp":"/tienda","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/tienda","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412574135} /_vercel/insights/view
+[00:30:15.761] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:15.761] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_343a9821-ed97-41bd-a98a-1970851d9aed__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[00:30:15.761] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:30:15.761] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
+[00:30:15.761] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784412795545} /_vercel/insights/view
+[00:34:22.505] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:22.505] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <Next.Metadata>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                    ...
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_f250cc09-6e32-466a-842d-cd497a6212a2__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                            ...
+                              <SegmentViewNode type="page" pagePath="admin/page...">
+                                <SegmentTrieNode>
+                                <AdminHomePage>
+                                  <div
+                                    className="layout-wrap"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <Sidebar>
+                                      <div
+                                        className="w-72 flex flex-col border-r border-zinc-800 bg-black text-white tra..."
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="flex items-center justify-between border-b border-zinc-800 p-4"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <nav className="flex-1 ove...">
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold uppercase tracking-wider text..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Inicio
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold uppercase tracking-wider text..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Tienda
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold uppercase tracking-wider text..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Usuarios
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold uppercase tracking-wider text..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Contenido
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="mb-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="px-4 py-2 text-xs font-semibold uppercase tracking-wider text..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Configuración
+                                            <div
+                                              className="space-y-1"
+-                                             bis_skin_checked="1"
+                                            >
+                                    <div
+                                      className="section-content-right min-w-0"
+-                                     bis_skin_checked="1"
+                                    >
+                                      <Header>
+                                        <header className="border-b b...">
+                                          <div
+                                            className="flex flex-wrap items-center justify-between gap-4"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <LinkComponent>
+                                            <div
+                                              className="hidden flex-1 max-w-md md:block"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="relative"
+-                                               bis_skin_checked="1"
+                                              >
+                                            <div
+                                              className="flex items-center gap-3 sm:gap-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <select>
+                                              <button>
+                                              <div
+                                                className="relative"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="relative"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center gap-3 border-l border-zinc-200 pl-4"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <img>
+                                                <div
+                                                  className="text-right"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="text-sm font-semibold text-zinc-950"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Cesar Diaz
+                                                  <div
+                                                    className="text-xs text-zinc-500"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Admin
+                                      <main className="main-conte...">
+                                        <section>
+                                        <section className="grid gap-4...">
+                                          <article className="wg-box fle...">
+                                            <div
+                                              className="space-y-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex h-11 w-11 items-center justify-center rounded-2xl bg-b..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+-                                               bis_skin_checked="1"
+                                              >
+                                            ...
+                                          <article className="wg-box fle...">
+                                            <div
+                                              className="space-y-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex h-11 w-11 items-center justify-center rounded-2xl bg-b..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+-                                               bis_skin_checked="1"
+                                              >
+                                            ...
+                                          <article className="wg-box fle...">
+                                            <div
+                                              className="space-y-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex h-11 w-11 items-center justify-center rounded-2xl bg-b..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+-                                               bis_skin_checked="1"
+                                              >
+                                            ...
+                                          <article className="wg-box fle...">
+                                            <div
+                                              className="space-y-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex h-11 w-11 items-center justify-center rounded-2xl bg-b..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+-                                               bis_skin_checked="1"
+                                              >
+                                            ...
+                                        <section className="grid gap-6...">
+                                          <article className="wg-box spa...">
+                                            <div
+                                              className="flex items-center justify-between gap-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+-                                               bis_skin_checked="1"
+                                              >
+                                              ...
+                                            <div
+                                              className="space-y-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex flex-col gap-3 rounded-2xl border border-zinc-200 p-4 ..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="flex items-center gap-3"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="flex flex-col gap-3 rounded-2xl border border-zinc-200 p-4 ..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="flex items-center gap-3"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="flex flex-col gap-3 rounded-2xl border border-zinc-200 p-4 ..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="flex items-center gap-3"
+-                                                 bis_skin_checked="1"
+                                                >
+                                          <article className="wg-box spa...">
+                                            <div
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="space-y-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center justify-between rounded-2xl border border..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center justify-between rounded-2xl border border..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center justify-between rounded-2xl border border..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center justify-between rounded-2xl border border..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-center justify-between rounded-2xl border border..."
+-                                               bis_skin_checked="1"
+                                              >
+                                        <Footer>
+                                          <footer className="py-6 borde...">
+                                            <div
+                                              className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+-                                             bis_skin_checked="1"
+                                            >
+                              ...
+                            ...
+                  ...
+
+[00:34:22.505] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:34:22.505] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
+[00:34:22.505] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413042323} /_vercel/insights/view
+[00:34:31.980] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:31.980] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/tienda" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_28411595-093a-4e47-965d-9c1bdd3c727d__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[00:34:31.980] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:34:31.980] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/tienda","route":"/tienda"}
+[00:34:31.980] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/tienda color: rgb(120, 120, 120) color: inherit {"dp":"/tienda","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/tienda","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413051747} /_vercel/insights/view
+[00:36:43.760] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:43.760] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/tienda" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_7cc50e63-442c-46ec-8116-83f7c047ea85__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[00:36:43.760] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:36:43.760] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/tienda","route":"/tienda"}
+[00:36:43.760] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/tienda color: rgb(120, 120, 120) color: inherit {"dp":"/tienda","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/tienda","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413183524} /_vercel/insights/view
+[00:36:48.446] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:48.446] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_f9c43742-152e-4a19-b638-27590865ae01__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[00:36:48.446] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:36:48.446] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
+[00:36:48.446] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413188298} /_vercel/insights/view
+[00:36:53.066] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/coupons color: rgb(120, 120, 120) color: inherit {"dp":"/coupons","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/coupons","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413192838} /_vercel/insights/view
+[00:37:01.409] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/settings color: rgb(120, 120, 120) color: inherit {"dp":"/settings","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/settings","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413201181} /_vercel/insights/view
+[00:37:12.167] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages color: rgb(120, 120, 120) color: inherit {"dp":"/pages","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413211938} /_vercel/insights/view
+[00:37:14.948] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/reports color: rgb(120, 120, 120) color: inherit {"dp":"/reports","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/reports","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413214633} /_vercel/insights/view
+[00:37:24.493] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/support color: rgb(120, 120, 120) color: inherit {"dp":"/support","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/support","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413224258} /_vercel/insights/view
+[00:37:38.050] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413237823} /_vercel/insights/view
+[00:38:47.791] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages color: rgb(120, 120, 120) color: inherit {"dp":"/pages","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413307567} /_vercel/insights/view
+[00:38:53.475] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413313235} /_vercel/insights/view
+[00:38:57.491] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages color: rgb(120, 120, 120) color: inherit {"dp":"/pages","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413317264} /_vercel/insights/view
+[00:39:02.312] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/roles color: rgb(120, 120, 120) color: inherit {"dp":"/roles","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/roles","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413322087} /_vercel/insights/view
+[00:39:04.615] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413324391} /_vercel/insights/view
+[00:39:06.272] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/products","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413326046} /_vercel/insights/view
+[00:39:08.084] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/categories color: rgb(120, 120, 120) color: inherit {"dp":"/categories","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/categories","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413327856} /_vercel/insights/view
+[00:39:09.151] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/brands color: rgb(120, 120, 120) color: inherit {"dp":"/brands","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/brands","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413328921} /_vercel/insights/view
+[00:39:11.778] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/brands/new color: rgb(120, 120, 120) color: inherit {"dp":"/brands/new","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/brands/new","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413331544} /_vercel/insights/view
+[00:39:13.668] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/categories color: rgb(120, 120, 120) color: inherit {"dp":"/categories","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/categories","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413333442} /_vercel/insights/view
+[00:39:15.626] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/products","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413335402} /_vercel/insights/view
+[00:39:18.003] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/orders color: rgb(120, 120, 120) color: inherit {"dp":"/orders","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/orders","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413337771} /_vercel/insights/view
+[00:39:20.349] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/users color: rgb(120, 120, 120) color: inherit {"dp":"/users","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/users","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413340125} /_vercel/insights/view
+[00:39:21.464] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/roles color: rgb(120, 120, 120) color: inherit {"dp":"/roles","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/roles","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413341238} /_vercel/insights/view
+[00:39:22.596] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/gallery color: rgb(120, 120, 120) color: inherit {"dp":"/gallery","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/gallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413342370} /_vercel/insights/view
+[00:39:24.603] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/roles color: rgb(120, 120, 120) color: inherit {"dp":"/roles","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/roles","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413344375} /_vercel/insights/view
+[00:39:26.838] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/gallery color: rgb(120, 120, 120) color: inherit {"dp":"/gallery","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/gallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413346614} /_vercel/insights/view
+[00:39:27.828] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/reports color: rgb(120, 120, 120) color: inherit {"dp":"/reports","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/reports","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413347602} /_vercel/insights/view
+[00:39:29.013] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/gallery color: rgb(120, 120, 120) color: inherit {"dp":"/gallery","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/gallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413348784} /_vercel/insights/view
+[00:39:35.167] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/countries color: rgb(120, 120, 120) color: inherit {"dp":"/countries","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/countries","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413354925} /_vercel/insights/view
+[00:39:39.413] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/settings color: rgb(120, 120, 120) color: inherit {"dp":"/settings","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/settings","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413359185} /_vercel/insights/view
+[00:39:53.070] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages color: rgb(120, 120, 120) color: inherit {"dp":"/pages","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413372836} /_vercel/insights/view
+[00:43:45.624] Server  LOG      ✓ Compiled in 321ms
+[00:44:18.571] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:18.571] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/pages" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_93aad99e-61b9-45e6-b2bd-c2d1fe6d4ce0__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[00:44:18.571] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:44:18.571] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/pages","route":"/pages"}
+[00:44:18.571] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages color: rgb(120, 120, 120) color: inherit {"dp":"/pages","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413638437} /_vercel/insights/view
+[00:44:26.462] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413646209} /_vercel/insights/view
+[00:44:28.246] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/categories color: rgb(120, 120, 120) color: inherit {"dp":"/categories","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/categories","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413648024} /_vercel/insights/view
+[00:44:30.826] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413650608} /_vercel/insights/view
+[00:44:36.307] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages color: rgb(120, 120, 120) color: inherit {"dp":"/pages","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413656087} /_vercel/insights/view
+[00:44:41.565] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/settings color: rgb(120, 120, 120) color: inherit {"dp":"/settings","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/settings","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413661346} /_vercel/insights/view
+[00:44:48.412] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/countries color: rgb(120, 120, 120) color: inherit {"dp":"/countries","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/countries","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413668188} /_vercel/insights/view
+[00:44:50.910] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/orders color: rgb(120, 120, 120) color: inherit {"dp":"/orders","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/orders","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413670689} /_vercel/insights/view
+[00:44:52.978] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/users color: rgb(120, 120, 120) color: inherit {"dp":"/users","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/users","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413672656} /_vercel/insights/view
+[00:44:53.729] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/roles color: rgb(120, 120, 120) color: inherit {"dp":"/roles","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/roles","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413673512} /_vercel/insights/view
+[00:44:58.714] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/gallery color: rgb(120, 120, 120) color: inherit {"dp":"/gallery","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/gallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413678495} /_vercel/insights/view
+[00:45:05.598] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages color: rgb(120, 120, 120) color: inherit {"dp":"/pages","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413685369} /_vercel/insights/view
+[00:45:31.882] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/support color: rgb(120, 120, 120) color: inherit {"dp":"/support","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/support","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413711655} /_vercel/insights/view
+[00:45:46.664] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages color: rgb(120, 120, 120) color: inherit {"dp":"/pages","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413726436} /_vercel/insights/view
+[00:46:09.984] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/support color: rgb(120, 120, 120) color: inherit {"dp":"/support","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/support","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413749762} /_vercel/insights/view
+[00:46:11.611] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/brands color: rgb(120, 120, 120) color: inherit {"dp":"/brands","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/brands","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413751393} /_vercel/insights/view
+[00:46:12.368] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/categories color: rgb(120, 120, 120) color: inherit {"dp":"/categories","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/categories","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413752149} /_vercel/insights/view
+[00:46:13.332] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/products","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413753116} /_vercel/insights/view
+[00:46:14.586] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/orders color: rgb(120, 120, 120) color: inherit {"dp":"/orders","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/orders","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413754370} /_vercel/insights/view
+[00:47:42.303] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413842086} /_vercel/insights/view
+[00:47:44.114] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/categories color: rgb(120, 120, 120) color: inherit {"dp":"/categories","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/categories","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413843900} /_vercel/insights/view
+[00:49:33.309] Server  LOG      ✓ Compiled in 715ms
+[00:49:59.491] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/products","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413979175} /_vercel/insights/view
+[00:50:01.113] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/categories color: rgb(120, 120, 120) color: inherit {"dp":"/categories","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/categories","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413980855} /_vercel/insights/view
+[00:50:02.230] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/brands color: rgb(120, 120, 120) color: inherit {"dp":"/brands","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/brands","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413981961} /_vercel/insights/view
+[00:50:07.448] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/coupons color: rgb(120, 120, 120) color: inherit {"dp":"/coupons","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/coupons","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413987233} /_vercel/insights/view
+[00:50:09.746] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/orders color: rgb(120, 120, 120) color: inherit {"dp":"/orders","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/orders","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413989501} /_vercel/insights/view
+[00:50:11.554] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/users color: rgb(120, 120, 120) color: inherit {"dp":"/users","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/users","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413991335} /_vercel/insights/view
+[00:50:12.689] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/roles color: rgb(120, 120, 120) color: inherit {"dp":"/roles","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/roles","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413992475} /_vercel/insights/view
+[00:50:17.754] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/support color: rgb(120, 120, 120) color: inherit {"dp":"/support","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/support","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784413997539} /_vercel/insights/view
+[00:50:29.716] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/settings color: rgb(120, 120, 120) color: inherit {"dp":"/settings","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/settings","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784414009498} /_vercel/insights/view
+[00:52:41.123] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/admin","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784414140907} /_vercel/insights/view
+[00:52:42.493] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/products","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784414142281} /_vercel/insights/view
+[00:52:43.806] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/categories color: rgb(120, 120, 120) color: inherit {"dp":"/categories","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/categories","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784414143592} /_vercel/insights/view
+[00:52:45.491] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/brands color: rgb(120, 120, 120) color: inherit {"dp":"/brands","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/brands","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784414145276} /_vercel/insights/view
+[00:52:47.357] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/orders color: rgb(120, 120, 120) color: inherit {"dp":"/orders","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/orders","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784414147145} /_vercel/insights/view
+[00:52:50.062] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/roles color: rgb(120, 120, 120) color: inherit {"dp":"/roles","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/roles","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784414149848} /_vercel/insights/view
+[00:52:52.060] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/gallery color: rgb(120, 120, 120) color: inherit {"dp":"/gallery","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/gallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784414151852} /_vercel/insights/view
+[00:52:54.877] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/reports color: rgb(120, 120, 120) color: inherit {"dp":"/reports","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/reports","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784414154668} /_vercel/insights/view
+[00:53:00.285] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages color: rgb(120, 120, 120) color: inherit {"dp":"/pages","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/pages","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784414160072} /_vercel/insights/view
+[00:53:07.637] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/support color: rgb(120, 120, 120) color: inherit {"dp":"/support","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/support","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784414167424} /_vercel/insights/view
+[00:53:11.941] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/coupons color: rgb(120, 120, 120) color: inherit {"dp":"/coupons","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/coupons","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784414171727} /_vercel/insights/view
+[00:54:23.178] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:54:23.178] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/tienda" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_700d434c-ff25-42f2-a4c2-24bb08d81102__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[00:54:23.291] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:54:23.291] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/tienda","route":"/tienda"}
+[00:54:23.291] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/tienda color: rgb(120, 120, 120) color: inherit {"dp":"/tienda","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/tienda","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784414243082} /_vercel/insights/view
+[00:55:23.922] Server  LOG      ✓ Compiled in 0ms
+[00:56:46.881] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:46.881] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/tienda" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="es">
+                          <body
+                            className="font-sans antialiased"
+-                           __processed_1f15c0be-021c-42e0-b22d-dfdc90675a7d__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[00:56:46.881] Browser WARN    Image with src "/placeholder.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:56:46.881] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:56:46.881] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/tienda","route":"/tienda"}
+[00:56:46.881] Browser LOG     %c[Vercel Web Analytics]%c [view] https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/tienda color: rgb(120, 120, 120) color: inherit {"dp":"/tienda","o":"https://didactic-chainsaw-pj6rjx9p75g52665x-3000.app.github.dev/tienda","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1784414386712} /_vercel/insights/view
+[00:58:48.057] Server  LOG      ✓ Compiled in 347ms
+[00:58:48.532] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[00:58:48.532] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[00:58:49.493] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[00:58:49.496] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[00:59:18.613] Server  ERROR    ⨯ ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+
+
+[00:59:18.785] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[00:59:19.506] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[00:59:21.031] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[00:59:21.371] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[00:59:21.497] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[00:59:21.497] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[00:59:22.643] Server  LOG      ○ Compiling /_error ...
+[00:59:25.183] Browser ERROR   uncaughtError: Error: ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+
+
+[00:59:25.498] Browser ERROR   uncaughtError: Error: ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+
+
+[00:59:26.490] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[00:59:26.490] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[00:59:26.493] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[00:59:26.493] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[00:59:26.493] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[01:00:10.484] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[01:00:10.486] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[01:00:51.512] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[01:00:51.512] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[01:00:51.512] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[01:00:51.512] Browser ERROR   ./app/tienda/page.tsx:179:9
+Parsing ecmascript source code failed
+  177 |
+  178 |       function LoadingSkeleton() {
+> 179 |         return (
+      |         ^^^^^^
+  180 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  181 |             {Array(8)
+  182 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[01:00:51.513] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[01:00:51.513] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[01:00:51.513] Browser ERROR   ./app/tienda/page.tsx:60:9
+Parsing ecmascript source code failed
+  58 |
+  59 |       function LoadingSkeleton() {
+> 60 |         return (
+     |         ^^^^^^
+  61 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  62 |             {Array(8)
+  63 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]
+[01:00:51.513] Browser ERROR   ./app/tienda/page.tsx:179:9
+Parsing ecmascript source code failed
+  177 |
+  178 |       function LoadingSkeleton() {
+> 179 |         return (
+      |         ^^^^^^
+  180 |           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  181 |             {Array(8)
+  182 |               .fill(0)
+
+Expected '</', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/tienda/page.tsx [Client Component Browser]
+    ./app/tienda/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/tienda/page.tsx [Client Component SSR]
+    ./app/tienda/page.tsx [Server Component]

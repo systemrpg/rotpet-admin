@@ -1,10 +1,10 @@
 "use client"
 
+import { useState } from "react"
 import Sidebar from "@/components/sidebar"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import { MessageSquare, Mail, Phone, Clock, CheckCircle } from "lucide-react"
-import { useState } from "react"
 
 export default function SupportPage() {
   const [selectedCategory, setSelectedCategory] = useState("general")
@@ -61,13 +61,13 @@ export default function SupportPage() {
       icon: Mail,
       title: "Email",
       description: "Contáctanos por correo electrónico",
-      contact: "soporte@calupoh.info",
+      contact: "soporte@calupoh.media",
     },
     {
       icon: Phone,
       title: "Teléfono",
       description: "Llámanos durante horario de oficina",
-      contact: "+52 (123) 456-7890",
+      contact: "+52 442 787 3954",
     },
     {
       icon: MessageSquare,
@@ -89,45 +89,91 @@ export default function SupportPage() {
   return (
     <div className="layout-wrap">
       <Sidebar />
-      <div className="section-content-right">
+      <div className="section-content-right min-w-0">
         <Header />
-        <main className="main-content">
-          <div className="mb-8">
-            <h1 className="text-3xl font-bold text-gray-900">Centro de Soporte</h1>
-            <p className="text-gray-600 mt-1">¿Necesitas ayuda? Estamos aquí para ti</p>
+        <main className="main-content space-y-8">
+          <div className="space-y-2">
+            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-zinc-500">Soporte</p>
+            <h1 className="text-3xl font-black text-zinc-950">Centro de Soporte</h1>
+            <p className="text-sm text-zinc-600">Encuentra ayuda y contacta con nuestro equipo.</p>
           </div>
 
-          {/* Support Channels */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
             {supportChannels.map((channel) => (
-              <div key={channel.title} className="bg-white rounded-lg border border-gray-200 p-6">
-                <channel.icon className="w-8 h-8 text-orange-600 mb-3" />
-                <h3 className="font-semibold text-gray-900 mb-1">{channel.title}</h3>
-                <p className="text-sm text-gray-600 mb-3">{channel.description}</p>
-                <p className="text-sm font-medium text-orange-600">{channel.contact}</p>
+              <div key={channel.title} className="wg-box space-y-3">
+                <channel.icon className="h-8 w-8 text-zinc-950" />
+                <h3 className="font-semibold text-zinc-950">{channel.title}</h3>
+                <p className="text-sm text-zinc-600">{channel.description}</p>
+                <p className="text-sm font-medium text-zinc-950">{channel.contact}</p>
               </div>
             ))}
           </div>
 
-          {/* Contact Form */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div className="lg:col-span-2">
-              <div className="bg-white rounded-lg border border-gray-200 p-8">
-                <h2 className="text-xl font-semibold text-gray-900 mb-6">Envíanos un mensaje</h2>
+              <div className="wg-box space-y-6">
+                <h2 className="text-xl font-semibold text-zinc-950">Preguntas Frecuentes</h2>
+
+                <div className="flex flex-wrap gap-2">
+                  <button
+                    onClick={() => setSelectedCategory("all")}
+                    className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${selectedCategory === "all" ? "bg-black text-white" : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200"}`}
+                  >
+                    Todas
+                  </button>
+                  <button
+                    onClick={() => setSelectedCategory("general")}
+                    className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${selectedCategory === "general" ? "bg-black text-white" : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200"}`}
+                  >
+                    General
+                  </button>
+                  <button
+                    onClick={() => setSelectedCategory("inventory")}
+                    className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${selectedCategory === "inventory" ? "bg-black text-white" : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200"}`}
+                  >
+                    Inventario
+                  </button>
+                  <button
+                    onClick={() => setSelectedCategory("orders")}
+                    className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${selectedCategory === "orders" ? "bg-black text-white" : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200"}`}
+                  >
+                    Órdenes
+                  </button>
+                </div>
+
+                <div className="space-y-4">
+                  {filteredFAQ.map((item) => (
+                    <details key={item.id} className="group rounded-2xl border border-zinc-200 p-4">
+                      <summary className="flex cursor-pointer items-center justify-between">
+                        <span className="flex items-center gap-2 font-medium text-zinc-950">
+                          <CheckCircle size={16} className="text-zinc-950" />
+                          {item.question}
+                        </span>
+                      </summary>
+                      <p className="mt-4 text-sm text-zinc-600">{item.answer}</p>
+                    </details>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <div className="lg:col-span-1">
+              <div className="wg-box">
+                <h2 className="mb-6 text-xl font-semibold text-zinc-950">Contactar Soporte</h2>
                 <form className="space-y-4">
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Correo Electrónico</label>
+                    <label className="mb-2 block text-sm font-medium text-zinc-700">Correo Electrónico</label>
                     <input
                       type="email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       placeholder="tu@correo.com"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
+                      className="w-full rounded-xl border border-zinc-200 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black"
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Categoría</label>
-                    <select className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                    <label className="mb-2 block text-sm font-medium text-zinc-700">Categoría</label>
+                    <select className="w-full rounded-xl border border-zinc-200 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black">
                       <option value="general">Pregunta General</option>
                       <option value="technical">Problema Técnico</option>
                       <option value="billing">Facturación</option>
@@ -135,13 +181,13 @@ export default function SupportPage() {
                     </select>
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Mensaje</label>
+                    <label className="mb-2 block text-sm font-medium text-zinc-700">Mensaje</label>
                     <textarea
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
                       placeholder="Cuéntanos cómo podemos ayudarte..."
                       rows={5}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
+                      className="w-full rounded-xl border border-zinc-200 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black"
                     />
                   </div>
                   <button type="submit" className="tf-button w-full">
@@ -149,102 +195,6 @@ export default function SupportPage() {
                   </button>
                 </form>
               </div>
-            </div>
-
-            {/* Quick Links */}
-            <div className="lg:col-span-1">
-              <div className="bg-white rounded-lg border border-gray-200 p-6">
-                <h3 className="font-semibold text-gray-900 mb-4">Enlaces Rápidos</h3>
-                <ul className="space-y-3">
-                  <li>
-                    <a href="#" className="text-orange-600 hover:text-orange-700 text-sm font-medium">
-                      Documentación
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-orange-600 hover:text-orange-700 text-sm font-medium">
-                      Guías y Tutoriales
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-orange-600 hover:text-orange-700 text-sm font-medium">
-                      Estado del Sistema
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-orange-600 hover:text-orange-700 text-sm font-medium">
-                      Términos de Servicio
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-orange-600 hover:text-orange-700 text-sm font-medium">
-                      Política de Privacidad
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* FAQ Section */}
-          <div className="bg-white rounded-lg border border-gray-200 p-8 mb-8">
-            <h2 className="text-xl font-semibold text-gray-900 mb-6">Preguntas Frecuentes</h2>
-
-            <div className="flex gap-2 mb-6 flex-wrap">
-              <button
-                onClick={() => setSelectedCategory("all")}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                  selectedCategory === "all"
-                    ? "bg-orange-600 text-white"
-                    : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                }`}
-              >
-                Todas
-              </button>
-              <button
-                onClick={() => setSelectedCategory("general")}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                  selectedCategory === "general"
-                    ? "bg-orange-600 text-white"
-                    : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                }`}
-              >
-                General
-              </button>
-              <button
-                onClick={() => setSelectedCategory("inventory")}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                  selectedCategory === "inventory"
-                    ? "bg-orange-600 text-white"
-                    : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                }`}
-              >
-                Inventario
-              </button>
-              <button
-                onClick={() => setSelectedCategory("orders")}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                  selectedCategory === "orders"
-                    ? "bg-orange-600 text-white"
-                    : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                }`}
-              >
-                Órdenes
-              </button>
-            </div>
-
-            <div className="space-y-4">
-              {filteredFAQ.map((item) => (
-                <details key={item.id} className="group border border-gray-200 rounded-lg p-4">
-                  <summary className="flex items-center justify-between cursor-pointer">
-                    <span className="font-medium text-gray-900 flex items-center gap-2">
-                      <CheckCircle size={16} className="text-green-600" />
-                      {item.question}
-                    </span>
-                  </summary>
-                  <p className="mt-4 text-gray-600 text-sm">{item.answer}</p>
-                </details>
-              ))}
             </div>
           </div>
 
