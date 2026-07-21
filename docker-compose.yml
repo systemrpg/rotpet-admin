@@ -1,0 +1,37 @@
+###############################################################################
+# Rot Pet Shop - Entorno de desarrollo local
+# PostgreSQL para pruebas sin depender de Supabase Cloud
+#
+# Uso:
+#   docker compose up -d          # Levantar DB
+#   docker compose down           # Detener servicio
+#   docker compose down -v        # Detener y borrar volúmenes (reset completo)
+###############################################################################
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: rotpet-db
+    restart: unless-stopped
+    ports:
+      - "5435:5432"
+    environment:
+      POSTGRES_USER: rotpet
+      POSTGRES_PASSWORD: rotpet_secret_2024
+      POSTGRES_DB: rotpet
+    volumes:
+      - rotpet_pgdata:/var/lib/postgresql/data
+      - ./docker/db/001-schema.sql:/docker-entrypoint-initdb.d/001-schema.sql
+      - ./docker/db/002-seed.sql:/docker-entrypoint-initdb.d/002-seed.sql
+      - ./docker/db/003-admin-user.sql:/docker-entrypoint-initdb.d/003-admin-user.sql
+      - ./docker/db/003-local-auth.sql:/docker-entrypoint-initdb.d/003-local-auth.sql
+      - ./docker/db/004-fix-product-images.sql:/docker-entrypoint-initdb.d/004-fix-product-images.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U rotpet -d rotpet"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  rotpet_pgdata:
+    driver: local
