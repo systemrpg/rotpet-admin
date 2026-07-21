@@ -4,11 +4,13 @@ import Image from "next/image"
 import Link from "next/link"
 import { useRouter, useSearchParams } from "next/navigation"
 import { Suspense, useState } from "react"
+import { signIn } from "next-auth/react"
 
 function LoginForm() {
     const router = useRouter()
     const searchParams = useSearchParams()
-    const returnTo = searchParams.get("returnTo") || "/"
+    // NextAuth usa ?callbackUrl=...; soportamos también ?returnTo=... por compat
+    const returnTo = searchParams.get("callbackUrl") || searchParams.get("returnTo") || "/"
 
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
@@ -21,26 +23,25 @@ function LoginForm() {
         setLoading(true)
 
         try {
-            const res = await fetch("/api/auth/login", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ email, password }),
+            const result = await signIn("credentials", {
+                email,
+                password,
+                redirect: false,
             })
 
-            const data = await res.json()
-
-            if (!res.ok || !data.success) {
-                setError(data.error || "Error al iniciar sesión")
+            if (!result || result.error) {
+                setError(
+                    result?.error === "CredentialsSignin"
+                        ? "Credenciales inválidas"
+                        : result?.error || "Error al iniciar sesión"
+                )
                 setLoading(false)
                 return
             }
 
-            const token = data.session?.access_token
-            if (token) {
-                document.cookie = `auth_token=${token}; path=/; max-age=604800; SameSite=Lax`
-            }
-
+            // Login OK — NextAuth ya setea la cookie de sesión
             router.push(returnTo)
+            router.refresh()
         } catch (err: any) {
             setError(err?.message || "Error de red")
             setLoading(false)

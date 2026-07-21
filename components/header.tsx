@@ -1,13 +1,16 @@
 "use client"
 
 import Image from "next/image"
-import { Search, Bell, MessageSquare, Moon } from 'lucide-react'
+import { Search, Bell, MessageSquare, Moon, LogOut } from 'lucide-react'
 import { useState } from "react"
 import Link from "next/link"
+import { signOut, useSession } from "next-auth/react"
 
 export default function Header() {
   const [isSearchOpen, setIsSearchOpen] = useState(false)
   const [isDarkMode, setIsDarkMode] = useState(false)
+  const { data: session } = useSession()
+  const user = session?.user
 
   return (
     <header className="bg-white border-b border-gray-200 px-8 py-4">
@@ -63,13 +66,22 @@ export default function Header() {
             </button>
           </div>
 
-          {/* User profile dropdown */}
+          {/* User profile + logout */}
           <div className="flex items-center gap-3 pl-4 border-l border-gray-200">
             <Image src="/logo-icon.png" alt="Avatar" width={32} height={32} className="rounded-full" />
             <div className="text-right">
-              <div className="text-sm font-semibold text-gray-900">Cesar Diaz</div>
-              <div className="text-xs text-gray-600">Admin</div>
+              <div className="text-sm font-semibold text-gray-900">{user?.name || user?.email || 'Invitado'}</div>
+              <div className="text-xs text-gray-600 capitalize">{user?.role || '—'}</div>
             </div>
+            {user && (
+              <button
+                onClick={() => signOut({ callbackUrl: '/login' })}
+                className="ml-2 p-2 text-gray-600 hover:text-red-600 hover:bg-red-50 rounded transition-colors"
+                title="Cerrar sesión"
+              >
+                <LogOut size={18} />
+              </button>
+            )}
           </div>
         </div>
       </div>

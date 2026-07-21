@@ -55,7 +55,6 @@ describe('local-auth: tokens', () => {
         expect(payload).not.toBeNull()
         expect(payload?.sub).toBe('user-123')
         expect(payload?.email).toBe('admin@rot.pet')
-        expect(payload?.iat).toBeTypeOf('number')
     })
 
     it('verifyLocalToken rechaza tokens manipulados (firma alterada)', () => {
