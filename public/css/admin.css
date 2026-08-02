@@ -1,0 +1,32 @@
+/* Admin CSS extracted from app/globals.css (palette + layout styles) */
+:root {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: #000000;
+  --primary-accent: #111111;
+  --secondary: #f4f4f5;
+  --muted: #71717a;
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.577 0.245 27.325);
+  --border: #e5e7eb;
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --radius: 0.625rem;
+}
+
+/* Admin layout helpers */
+.layout-wrap { display:flex; min-height:100vh; background:#f8fafc }
+.section-menu-left { width:18rem; overflow-y:auto; border-right:1px solid #111; background:#000 }
+.section-content-right { flex:1; display:flex; flex-direction:column }
+.header-dashboard { border-bottom:1px solid #e5e7eb; background:#fff; padding:1rem 2rem }
+.main-content { flex:1; overflow:auto; padding:2rem }
+
+/* Buttons */
+.tf-button { border-radius:9999px; background:#000; color:#fff; padding:0.5rem 1rem }
+
+/* Cards */
+.wg-box { background:#fff; border-radius:0.5rem; border:1px solid #e5e7eb; padding:1.5rem }
