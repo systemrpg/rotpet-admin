@@ -9,7 +9,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Rot Pet - Panel Administrativo",
+  title: "Röt Pet - Panel Administrativo",
   description: "Panel de administración para rot.pet. Desarrollado por Calupoh Media.",
   generator: "v0.app",
   icons: {
