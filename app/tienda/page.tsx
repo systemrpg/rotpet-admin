@@ -51,6 +51,51 @@ export default async function TiendaPage({
     products = []
   }
 
+  // Si no hay productos reales, mostrar ejemplos demo para que la página no quede vacía
+  if (!products || products.length === 0) {
+    products = [
+      {
+        id: "demo-1",
+        slug: "alimento-premium",
+        name: "Alimento Premium para Perros",
+        description: "Croquetas nutritivas premium para energía y salud.",
+        price: 29.99,
+        originalPrice: 39.99,
+        image: "/placeholder.jpg",
+        isNew: true,
+        discount: 25,
+        rating: 4,
+        reviewCount: 24,
+      },
+      {
+        id: "demo-2",
+        slug: "juguete-cuerda",
+        name: "Juguete de Cuerda para Masticar",
+        description: "Duradero y divertido, ideal para juegos con tu mascota.",
+        price: 9.99,
+        originalPrice: 0,
+        image: "/placeholder.jpg",
+        isNew: false,
+        discount: 0,
+        rating: 5,
+        reviewCount: 102,
+      },
+      {
+        id: "demo-3",
+        slug: "arena-super-absorbente",
+        name: "Arena Super Absorbente",
+        description: "Control de olores y larga duración.",
+        price: 14.5,
+        originalPrice: 18.0,
+        image: "/placeholder.jpg",
+        isNew: false,
+        discount: 19,
+        rating: 4,
+        reviewCount: 8,
+      },
+    ]
+  }
+
   return (
     <div className="container px-4 py-8 md:py-12">
       <h1 className="text-3xl font-bold mb-8">Tienda</h1>
