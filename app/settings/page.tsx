@@ -12,7 +12,7 @@ export default function SettingsPage() {
         <main className="main-content">
           <div className="mb-8">
             <h1 className="text-3xl font-bold text-gray-900">Configuración</h1>
-            <p className="text-gray-600 mt-1">Gestiona la configuración de Rot Pet Shop</p>
+            <p className="text-gray-600 mt-1">Gestiona la configuración de rot.pet</p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -37,7 +37,7 @@ export default function SettingsPage() {
                   <label className="block text-sm font-medium text-gray-700 mb-2">Nombre de la Tienda</label>
                   <input
                     type="text"
-                    defaultValue="Rot Pet Shop"
+                    defaultValue="Röt Pet Shop"
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
                   />
                 </div>
@@ -46,7 +46,7 @@ export default function SettingsPage() {
                   <label className="block text-sm font-medium text-gray-700 mb-2">Email de Contacto</label>
                   <input
                     type="email"
-                    defaultValue="info@rotpet.com"
+                    defaultValue="info@rot.pet"
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
                   />
                 </div>
@@ -55,7 +55,7 @@ export default function SettingsPage() {
                   <label className="block text-sm font-medium text-gray-700 mb-2">Teléfono</label>
                   <input
                     type="tel"
-                    defaultValue="+56 9 1234 5678"
+                    defaultValue="+52 4121342478"
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
                   />
                 </div>
@@ -63,7 +63,7 @@ export default function SettingsPage() {
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Dirección</label>
                   <textarea
-                    defaultValue="Santiago, Chile"
+                    defaultValue={`C. Nicolás Bravo 308 Zona Centro, 38240 Juventino Rosas, Gto., México`}
                     rows={3}
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
                   />
