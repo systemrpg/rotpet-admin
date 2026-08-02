@@ -3,13 +3,14 @@ import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
+import { CartProvider } from "@/components/cart-provider"
 
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Rot Pet - Panel Administrativo",
-  description: "Panel de administración para Rot Pet Shop. Diseñado por Calupoh Media",
+  description: "Panel de administración para rot.pet. Desarrollado por Calupoh Media.",
   generator: "v0.app",
   icons: {
     icon: [
@@ -38,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={`font-sans antialiased`}>
-        {children}
+        <CartProvider>{children}</CartProvider>
         <Analytics />
       </body>
     </html>
